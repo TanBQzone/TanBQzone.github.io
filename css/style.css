@@ -5,6 +5,8 @@
     text-align: center;
     margin: 1rem;
     padding: 20vh 10%;
+    border-radius: 10vh;
+    border: 2px solid black;
 }
 
 .line,
