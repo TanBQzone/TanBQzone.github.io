@@ -1,5 +1,11 @@
 * {
-    font-family: "NS-Medium", serif;
+    font-family: "NS-Regular", serif;
+}
+
+body {
+    color: #1D1D1F;
+    background-color: #F5F5F7;
+    cursor: url("/cursors/pointer.png"), default;
 }
 
 .display {
@@ -16,7 +22,7 @@
 .station-en {
     width: 50vh;
     height: 3.4vh;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .line,
@@ -38,4 +44,5 @@
     text-align: center;
     border: 0.1rem solid black;
     border-radius: 0.6rem;
+    cursor: url("/cursors/link.png"), default;
 }

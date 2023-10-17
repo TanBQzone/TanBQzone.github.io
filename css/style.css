@@ -1,32 +1,28 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "NS-Medium", serif;
+    font-family: "NS-Medium", sans-serif;
 }
 
 body {
-    display: flex;
-    align-items: center;
+    color: #1D1D1F;
+    background-color: #F5F5F7;
+    cursor: url("/cursors/pointer.png"), default;
+}
+
+.poem_today {
+    height: 10vh;
     justify-content: center;
+    align-items: center;
+    text-align: right;
 }
 
-button {
-    padding: 1rem;
-    margin: 2rem;
-    width: auto;
-    height: 50px;
-    border-radius: 2rem;
-    border: 0;
-    background-color: rgb(23, 112, 190);
-    box-shadow: 0.3rem 0.3rem 1rem rgb(17, 78, 131)
-}
-a {
-    width: auto;
-    height: auto;
-    text-decoration: none;
-    color: aliceblue;
+.poem_today #poem_info {
+    margin-right: 0.4rem;
+    font-size: 1rem;
+    font-family: "NS-Black", sans-serif;
 }
 
-a:active {
-    color: aliceblue;
+.poem_today #poem_sentence {
+    font-size: 1.5rem;
 }
