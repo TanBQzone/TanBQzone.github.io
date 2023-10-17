@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "NS-Medium", serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 1rem;
+    margin: 2rem;
+    width: auto;
+    height: 50px;
+    border-radius: 2rem;
+    border: 0;
+    background-color: rgb(23, 112, 190);
+    box-shadow: 0.3rem 0.3rem 1rem rgb(17, 78, 131)
+}
+a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:active {
+    color: aliceblue;
+}

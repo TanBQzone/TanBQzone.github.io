@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'NS-Black';
+    src: url('./NotoSerifSC-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS-Bold';
+    src: url('./NotoSerifSC-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS-ExtraLight';
+    src: url('./NotoSerifSC-ExtraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS-Black';
+    src: url('./NotoSerifSC-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS-Medium';
+    src: url('./NotoSerifSC-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS-Regular';
+    src: url('./NotoSerifSC-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NS-SemiBold';
+    src: url('./NotoSerifSC-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

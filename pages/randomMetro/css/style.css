@@ -1,3 +1,7 @@
+* {
+    font-family: "NS-Medium", serif;
+}
+
 .display {
     display: flex;
     flex-direction: column;
