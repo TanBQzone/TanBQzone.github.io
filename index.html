@@ -11,22 +11,63 @@
 </head>
 
 <body>
-    <div class="poem_today">
-        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        <div id="poem_info"></div>
-        <div id="poem_sentence"></div>
-        <script type="text/javascript">
-            jinrishici.load(function (result) {
-                var sentence = document.querySelector("#poem_sentence")
-                var info = document.querySelector("#poem_info")
-                sentence.innerHTML = result.data.content
-                info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
-            });
-        </script>
+    <div class="nav">
+        <div class="navitems">
+            <ul>
+                <li class="selected" data-page="page1">主页</li>
+                <li data-page="page2">摄影系列</li>
+                <li data-page="page3">一些随笔</li>
+                <li data-page="page4">一些程序</li>
+                <li data-page="page5">更新说明</li>
+            </ul>
+        </div>
+
+        <div id="page1" class="page" style="display: block;">
+            <div class="poem_today">
+                <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+                <div id="poem_info"></div>
+                <div id="poem_sentence"></div>
+                <script src="js/jinrishici.js"></script>
+            </div>
+        </div>
+
+        <div id="page2" class="page">摄影系列模块内容</div>
+        <div id="page3" class="page">一些随笔模块内容</div>
+        <div id="page4" class="page">
+            <button><a href="./pages/randomMetro/index.html">点击进入随机地铁网站</a></button>
+        </div>
+        <div id="page5" class="page">
+            <p>beta 0.1 测试 · 重置</p>
+            <p>beta 0.1 23w42a: 添加随机地铁功能(武汉)</p>
+            <p>beta 0.1 23w42b: 构建目录, 测试今日诗词api, 优化字体, 全局字体与颜色一致</p>
+            <p>beta 0.1 23w42c: 转换为个人主页, 修复bug, 添加光标</p>
+            <p>beta 0.1 23w42d: 添加主页框架, 多页面测试</p>
+
+            <p>早期测试</p>
+            <p>2020年3月15日·提出计划，并寻找合适模板</p>
+            <p>2020年5月1日·修改模板，搭建网站雏形</p>
+            <p>2020年5月2日·完善B站视频链接，修改文案</p>
+            <p>2020年5月2日·写完了『扫街日记』的第一期</p>
+            <p>2020年5月3日·扫街日记第一期BUG较多发布时间暂定</p>
+            <p>2020年5月4日·跟猜猜不菜订阅号合作,转载资源</p>
+            <p>2020年6月1日·放弃用HTML写『扫街日记』，通过B站专栏形式</p>
+            <p>2020年6月4日·确定壁纸</p>
+            <p>2020年6月27日·添加了一些小游戏 主要是学习CSS</p>
+            <p>2020年8月16日·开始第一次测试~</p>
+
+            <p>2021年2月5日·添加壁纸回忆</p>
+
+
+        </div>
     </div>
-
-
-    <button><a href="./pages/randomMetro/index.html">点击进入随机地铁网站</a></button>
+    <footer>
+        <p>©️2020-2023 谭必清·TanBQ</p>
+        <p>个人的小可能站会又些bug</p>
+        <p>但是会在不断的学习中越来越好的(理论上会慢慢修复)</p>
+        <br>
+        <p>目前使用的API: <a href="https://www.jinrishici.com" target="_blank">今日诗词 API</a></p>
+    </footer>
+    <script src="js/changePage.js"></script>
 </body>
 
 </html>

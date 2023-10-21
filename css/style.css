@@ -6,8 +6,37 @@
 
 body {
     color: #1D1D1F;
+    min-width: 100vh;
+    min-height: 100vh;
     background-color: #F5F5F7;
     cursor: url("/cursors/pointer.png"), default;
+}
+
+.navitems {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    background-color: #F5F5F7;
+    color: #1D1D1F;
+}
+
+.nav .page {
+    height: 100vh;
+}
+
+.navitems ul li {
+    display: inline-block;
+    width: 12vh;
+    height: 4.4vh;
+    padding-top: 1.6vh;
+    text-align: center;
+    cursor: url("/cursors/link.png"), default;
+}
+
+.navitems ul li.selected,
+.navitems ul li:hover {
+    background: #AED5EC;
+    color: #F5F5F7;
 }
 
 .poem_today {
@@ -25,4 +54,24 @@ body {
 
 .poem_today #poem_sentence {
     font-size: 1.5rem;
+}
+
+footer {
+    padding: 5vh;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #AED5EC;
+    color: #F5F5F7;
+}
+
+footer a {
+    color: #F5F5F7;
+    direction: none;
+}
+
+footer a:active {
+    color: #F5F5F7;
+    direction: none;
 }
